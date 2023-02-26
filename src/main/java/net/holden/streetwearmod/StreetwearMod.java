@@ -1,6 +1,7 @@
 package net.holden.streetwearmod;
 
 import com.mojang.logging.LogUtils;
+import net.holden.streetwearmod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,6 +22,8 @@ public class StreetwearMod {
     public StreetwearMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
