@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "streetwearmod:zircon"
+      "item": "streetwearmod:hype_fragment"
     }
   },
   "result": {
-    "item" : "minecraft:diamond"
+    "item" : "streetwearmod:zircon_block"
   }
 }

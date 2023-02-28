@@ -21,7 +21,7 @@ public class ModItems {
 
     public static final RegistryObject<Item> ZIRCON = ITEMS.register("zircon",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.STREETWEAR_TAB)));
-    public static final RegistryObject<Item> RAW_ZIRCON = ITEMS.register("raw_zircon",
+    public static final RegistryObject<Item> HYPE_FRAGMENT = ITEMS.register("hype_fragment",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.STREETWEAR_TAB)));
     public static final RegistryObject<Item> STONE_ISLAND_BADGE = ITEMS.register("stone_island_badge",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.STREETWEAR_TAB)));
@@ -43,7 +43,7 @@ public class ModItems {
                 25,
                 SoundEvents.ARMOR_EQUIP_LEATHER,
                 2f,
-                10f,
+                0f,
                 () -> Ingredient.of(ModItems.BLUE_STONE_ISLAND_SWEATSHIRT.get())
         );
     }
