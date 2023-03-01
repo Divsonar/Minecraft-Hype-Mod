@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "streetwearmod:block/streetwear_ore"
+    "all": "streetwearmod:block/hype_ore"
   }
 }

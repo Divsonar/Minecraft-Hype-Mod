@@ -1,13 +1,21 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    {
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " A ",
+    " B ",
+    "CCC"
+  ],
+  "key": {
+    "A": {
       "item": "streetwearmod:stone_island_badge"
     },
-    {
+    "B": {
       "item": "minecraft:diamond_chestplate"
+    },
+    "C": {
+      "item": "streetwearmod:hype_essence"
     }
-  ],
+  },
   "result": {
     "item": "streetwearmod:blue_stone_island_sweatshirt"
   }

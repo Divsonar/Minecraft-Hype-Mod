@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab STREETWEAR_TAB = new CreativeModeTab("streetweartab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.ZIRCON.get());
+            return new ItemStack(ModItems.HYPE_FRAGMENT.get());
         }
     };
 }

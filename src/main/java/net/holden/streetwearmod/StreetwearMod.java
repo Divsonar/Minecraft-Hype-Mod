@@ -3,6 +3,7 @@ package net.holden.streetwearmod;
 import com.mojang.logging.LogUtils;
 import net.holden.streetwearmod.block.ModBlocks;
 import net.holden.streetwearmod.item.ModItems;
+import net.holden.streetwearmod.villager.ModVillagers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -26,6 +27,7 @@ public class StreetwearMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModVillagers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -34,6 +36,9 @@ public class StreetwearMod {
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
+        event.enqueueWork(() -> {
+            ModVillagers.registerPOIs();
+        });
     }
 
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent

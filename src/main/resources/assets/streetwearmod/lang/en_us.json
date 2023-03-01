@@ -5,6 +5,13 @@
   "itemGroup.streetweartab" : "Streetwear Mod",
   "item.streetwearmod.blue_stone_island_cap" : "Blue Stone Island Cap",
   "item.streetwearmod.blue_stone_island_sweatshirt" : "Blue Stone Island Sweatshirt",
-  "block.streetwearmod.zircon_block" : "Block of Zircon",
-  "block.streetwearmod.streetwear_ore" : "Streetwear Ore"
+  "block.streetwearmod.hype_block" : "Block of Hype",
+  "block.streetwearmod.hype_ore" : "Hype Ore",
+  "item.streetwearmod.hype_essence" : "Hype Essence",
+  "item.streetwearmod.sorayama_helmet" : "Sorayama's Helmet",
+  "item.streetwearmod.sorayama_chestplate" : "Sorayama's Chestplate",
+  "item.streetwearmod.sorayama_leggings" : "Sorayama's Leggings",
+  "item.streetwearmod.sorayama_boots" : "Sorayama's Boots",
+  "item.streetwearmod.sorayama_ingot" : "Sorayama's Ingot",
+  "entity.minecraft.villager.streetwearmod.hype_dealer" : "Hype Dealer"
 }

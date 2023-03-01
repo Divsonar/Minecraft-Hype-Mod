@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "streetwearmod:block/zircon_block"
+    "all": "streetwearmod:block/hype_block"
   }
 }

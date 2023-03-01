@@ -1,22 +1,22 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " A ",
-    " B ",
+    "AAA",
+    "ABA",
     "CCC"
   ],
   "key": {
     "A": {
-      "item": "streetwearmod:stone_island_badge"
+      "item": "streetwearmod:sorayama_ingot"
     },
     "B": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:netherite_boots"
     },
     "C": {
       "item": "streetwearmod:hype_essence"
     }
   },
   "result": {
-    "item": "streetwearmod:blue_stone_island_cap"
+    "item": "streetwearmod:sorayama_boots"
   }
 }

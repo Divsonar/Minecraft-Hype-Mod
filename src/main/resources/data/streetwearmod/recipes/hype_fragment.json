@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "streetwearmod:hype_essence"
+    },
+    {
+      "item": "streetwearmod:hype_essence"
+    },
+    {
+      "item": "streetwearmod:hype_essence"
+    },
+    {
+      "item": "streetwearmod:hype_essence"
+    }
+  ],
+  "result": {
+    "item": "streetwearmod:hype_fragment"
+  }
+}
