@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "streetwearmod:block/deepslate_hype_ore"
+  }
+}

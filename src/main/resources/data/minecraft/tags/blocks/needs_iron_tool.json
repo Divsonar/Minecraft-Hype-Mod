@@ -1,5 +1,8 @@
 {
   "replace": false,
   "values": [
+    "streetwearmod:deepslate_hype_ore",
+    "streetwearmod:hype_ore",
+    "streetwearmod:hype_block"
   ]
 }

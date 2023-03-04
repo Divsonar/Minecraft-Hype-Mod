@@ -4,6 +4,8 @@ import com.mojang.logging.LogUtils;
 import net.holden.streetwearmod.block.ModBlocks;
 import net.holden.streetwearmod.item.ModItems;
 import net.holden.streetwearmod.villager.ModVillagers;
+import net.holden.streetwearmod.world.feature.ModConfiguredFeatures;
+import net.holden.streetwearmod.world.feature.ModPlacedFeatures;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -28,6 +30,8 @@ public class StreetwearMod {
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
         ModVillagers.register(modEventBus);
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
