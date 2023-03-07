@@ -47,4 +47,5 @@ Stone Island Set
 
 Sorayama Set   
 ![2023-03-04_23 32 26](https://user-images.githubusercontent.com/83642112/222915670-c68e488d-a187-47a7-8497-1db76d06138f.png)  
-
+  
+Sorayam Set's Textures Credits : https://www.planetminecraft.com/texture-pack/galactic-warriors-armory-java/
